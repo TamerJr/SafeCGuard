@@ -17,10 +17,10 @@ const NavBar = () => {
   console.log(isToggle);
   console.log(asideStyles);
   return (
-    <nav className="flex justify-between items-center w-full bg-orange-400 text-black px-12">
+    <nav className="flex justify-between items-center w-full h-20 bg-orange-400 font-semibold text-white px-12  sticky">
         <Link href="/">
       <Image
-        className="h-12 object-contain"
+        className="h-12 object-contain h-13 "
         src={Logo}
         height={500}
         width={300}
