@@ -17,6 +17,9 @@ export const BooksApi = createApi({
     getBooks: builder.query({
       query: (genre) => `/nominees/${genre}/2020`,
     }),
+    getBookDetails:builder.query({
+      query:(id)=>`/book/${id}` 
+    })
   }),
 });
 
