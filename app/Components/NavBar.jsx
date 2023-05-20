@@ -14,16 +14,15 @@ const NavBar = () => {
     !isToggle ? "right-full" : "right-2"
   } top-16 bg-orange-400 shadow-md text-white rounded-lg py-8 transition duration-600 ease-in-out`;
 
-  console.log(isToggle);
-  console.log(asideStyles);
+ 
   return (
-    <nav className="flex justify-between items-center w-full h-20 bg-orange-400 font-semibold text-white px-12  sticky">
+    <nav className="justify-between flex md:justify-around items-center w-full h-20 bg-orange-400 font-semibold text-white px-12  sticky top-0 z-50">
         <Link href="/">
       <Image
-        className="h-12 object-contain h-13 "
+        className="h-12 object-contain w-fit"
         src={Logo}
-        height={500}
-        width={300}
+        height="auto"
+        width="auto"
         alt="Logo"
         />
         </Link>

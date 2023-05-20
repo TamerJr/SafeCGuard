@@ -5,7 +5,7 @@ import styles from "@/app/HeroSection.module.css";
 import Link from "next/link";
 const HeroSection = () => {
   return (
-    <section className=" box-border text-center md:flex max-w-full justify-center items-center lg:m-5 md:m-0 lg:h-96 ">
+    <section className="mt-8 box-border text-center md:flex max-w-full justify-center items-center lg:m-5 md:m-0 lg:h-96 ">
       <div className="gap-2 justify-center w-5/6  m-auto flex lg:justify-around md:gap-8 items-center flex-col min-h-full lg:w-3/6 relative">
         <h1 className="text-2xl font-bold md:text-5xl leading-20 ">
           Feed Your Brain With Reading Books
